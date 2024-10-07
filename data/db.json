@@ -36,6 +36,34 @@
       ],
       "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
       "cookingTime": "35 minutes"
+    },
+    {
+      "id": "b98b",
+      "title": "خورشت افغانی",
+      "ingredients": [
+        "نون خشک",
+        "نوشابه"
+      ],
+      "method": "کارگره مضلوم",
+      "cookingTime": "12 minutes"
+    },
+    {
+      "id": "1348",
+      "title": "شمالی پلو",
+      "ingredients": [
+        "کله ماهی"
+      ],
+      "method": "تیبالا میسر",
+      "cookingTime": "2 minutes"
+    },
+    {
+      "id": "1b60",
+      "title": "عرب کباب",
+      "ingredients": [
+        "ملخ",
+        "سوسمار"
+      ],
+      "method": "ای خلیفه ی کون تاقار",
+      "cookingTime": "7 minutes"
     }
-  ]
 }

@@ -9,8 +9,8 @@ export default function SearchBar() {
     const handleSubmit = (e) => {
         e.preventDefault()
         navigate(`/search?q=${term}`)
-
     }
+    
   return (
     <div className='searchbar'> 
       <form onSubmit={handleSubmit}>
