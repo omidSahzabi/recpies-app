@@ -6,13 +6,19 @@ import Create from './pages/Create/Create'
 import Home from './pages/Home/Home'
 import Recpie from './pages/Recpie/Recepie'
 import Search from './pages/Search/Search'
+import ThemeSelector from './components/themeSelector/ThemeSelector';
+import { useTheme } from './hooks/useTheme';
 
 
 function App() {
+
+  const {mode} = useTheme()
+
   return (
-    <div className="App">
+    <div className={`App ${mode}`}>
       <Router>
         <Navbar />
+        <ThemeSelector />
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/create' element={<Create/>}/>

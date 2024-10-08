@@ -21,7 +21,6 @@ export default function Search() {
       {error && <p className='error'>{error}</p>}
       {isLoading && <p className='loading'>wait...</p>}
       { filteredData.length > 0 ? <RecpieList recipes={filteredData} /> : <p className='search-error'>You are not searchng correctly</p>}
-
     </div>
   )
 }
