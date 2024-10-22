@@ -1,10 +1,12 @@
 import './Home.css'
-import { useFetch } from '../../hooks/useFetch'
-
 import RecpieList from '../../components/RecpieList/RecpieList'
+import { useCollection } from '../../hooks/useCollection'
 
 export default function Home() {
-  const {data, error , isLoading} = useFetch('http://localhost:8001/recipes')
+
+
+  const { collectionData : data , isLoading , error} = useCollection('recipes')
+
   return (
     <div className='home'>
       {error && <p className='error'>{error}</p>}
